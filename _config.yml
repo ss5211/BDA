@@ -2,7 +2,6 @@
 # Enter your own credentials here
 title: "Research-Blog"
 email: mahdir@gatech.edu
-       jcm3@gatech.edu
 description: >
   Quantifying Hydraulic Tortuosity in Randomly Packed Binary-sized Structures
 baseurl: "/MIC-Packed-Particles" # replace ``/research-pages`` with the name of the parents repository
