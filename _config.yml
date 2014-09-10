@@ -1,13 +1,13 @@
 # Site settings
 # Enter your own credentials here
-title: "My Blog"
-email: you@somewhere.com
+title: "Research-Blog"
+email: mahdir@gatech.edu
 description: >
   Tell us about your site
 baseurl: "/MIC-Packed-Particles" # replace ``/research-pages`` with the name of the parents repository
 url: "Mahdi-Roozbahani.github.io" # replate ``Materials-Informatics-Lab`` with your Github username
 twitter_username: twitterhandle
-disqus: tonyfast
+disqus: mahdiroozbahani
 
 # Build settings
 markdown: kramdown
