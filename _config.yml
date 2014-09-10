@@ -4,8 +4,8 @@ title: "My Blog"
 email: you@somewhere.com
 description: >
   Tell us about your site
-baseurl: "/research-pages" # replace ``/research-pages`` with the name of the parents repository
-url: "Materials-Informatics-Lab.github.io" # replate ``Materials-Informatics-Lab`` with your Github username
+baseurl: "/MIC-Packed-Particles" # replace ``/research-pages`` with the name of the parents repository
+url: "Mahdi-Roozbahani.github.io" # replate ``Materials-Informatics-Lab`` with your Github username
 twitter_username: twitterhandle
 disqus: tonyfast
 
@@ -18,7 +18,7 @@ paginate: 5
 
 
 gh:
-  user: Materials-Informatics-Lab
-  repo: research-pages
+  user: Mahdi-Roozbahani
+  repo: MIC-Packed-Particles
   # Branch hosting Github pages
   branch: gh-pages
