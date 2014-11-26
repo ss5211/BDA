@@ -1,0 +1,46 @@
+---
+layout: post
+title: Structure-Property Linkages of Packed Soil Particles
+
+---
+### Datasets: Four Different Packed Soil Structures
+
+<p align="center">
+<img src="https://farm3.staticflickr.com/2943/15411283312_1853022cbc_b.jpg" width="1024" height="500">
+</p>
+<p align="center">
+ Mono-sized Loosely Packed Particles
+</p>
+
+###  Hydraulic Conductivity Calculation (FVM in MATLAB)
+
+<p align="center">
+<img src="https://farm6.staticflickr.com/5599/15416527160_b228fd3747_n.jpg" width="320" height="240">
+</p>
+<p align="center">
+ A Sample Sub-volume
+</p>
+
+### Two Point Statistics and PCA Analysis
+#### Eigenvalue Explanation 
+
+<p align="center">
+<img src= "https://farm4.staticflickr.com/3927/15411596162_876bf61e2a_c.jpg" width="800" height="600">
+</p>
+<p align="center">
+ Velocity in X-Z plane (Z is the flow direction)
+</p>
+
+#### First 2 Components
+
+#### First Three Components
+
+#### General Regression Analysis
+
+ 
+
+### References
+* [Lattice Boltzmann Matlab Scripts. http://exolete.com/lbm/](http://exolete.com/lbm/)
+* [Wong, R. C. (2003). Strain-induced anisotropy in fabric and hydraulic parameters of oil sand in triaxial compression. Canadian geotechnical journal, 40(3), 489-500.](http://www.nrcresearchpress.com/doi/abs/10.1139/t03-005#.VAZHTEuHcpE)
+* [Roozbahani, M. M., Graham‐Brady, L., & Frost, J. D. (2014). Mechanical trapping of fine particles in a medium of mono‐sized randomly packed spheres. International Journal for Numerical and Analytical Methods in Geomechanics.](http://onlinelibrary.wiley.com/doi/10.1002/nag.2276/abstract)
+* [Çeçen, A., Fast, T., Kumbur, E. C., & Kalidindi, S. R. (2014). A data-driven approach to establishing microstructure–property relationships in porous transport layers of polymer electrolyte fuel cells. Journal of Power Sources, 245, 144-153.](http://www.sciencedirect.com/science/article/pii/S0378775313011075)
