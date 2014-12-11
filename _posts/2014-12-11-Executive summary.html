@@ -20,7 +20,7 @@ As such, our project objective is to develop a fast, rigorous approach to quanti
 
 #### What packed soil particles samples should we work on?
 
-Our Initial idea only considered randomly packed mono-sized structures, but it cannot reflect the complex nature of soils and would lead to a very restricted application of the project results. It is neccesary for us to consider soil particles with different sizes and different shapes. 
+Our Initial idea only considered randomly packed mono-sized structures, but it cannot reflect the complex nature of soils and thus would lead to a very restricted application of the project results. It is neccesary for us to consider soil particles with different sizes and different shapes. 
 
 Accordingly, we take four different packed soil structures into account: Mono-sized, binary-sized and multi-sized samples genereated by Gravitational Sphere Packing Simulation (GSP) and one real soil sample reconstructed from 2D optical microscopic images. After obtaining the soil structures to be examined, we randomly sampled a total of 703 subvolumes as our fully datasets. 
 
@@ -50,7 +50,11 @@ At the end, with the help of Ahmet, we figured out a way to numerically calculat
 
 ### Project Contents
 
-The workflow is shown as:
+The workflow is shown as below. 
+
+* 2-point spatial correlation is applied to quantatively describe the soil structures. 
+* PCA is conducted to obtain a reduced-order representation of structures. 
+* Regression method combining leave-one-out cross validation is to mine the desired structure-property correlation.
 
 <p align="center">
 <img src="https://farm8.staticflickr.com/7580/15812584290_5beb2db04b_o.png" width="480" height="360">
@@ -58,4 +62,5 @@ The workflow is shown as:
 <p align="center">
  Method of Approach
 </p>
+
 
