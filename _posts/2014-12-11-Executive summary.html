@@ -35,11 +35,11 @@ Accordingly, we take four different packed soil structures into account: Mono-si
 
 Lack of experimental data for hydraulic conductivity, so we need to acquire the data using numerical method. At the beginning, we tried to use Lattice-Boltzmann method, a relatively new and advanced simulation technique for complex fluid systems. Details of this project description can be found in our first post [_Project Progress I post_](http://mahdi-roozbahani.github.io/MIC-Packed-Particles/2014/09/17/Project-Description.html).
 
-Based on this plan, we spent about one month struggling with the LBM simulation for neither of us had the experience in this simulation. We obtained the code from the website and modifed it to meet our requirement, but we had the problem on the unit conversion (lattice units to physical units). Details of the progresses for LBM simulation can be found in our posts [_Project Progress II_](http://mahdi-roozbahani.github.io/MIC-Packed-Particles/2014/10/01/Project-Progress.html) and [_Unit Conversion from Lattice Units to Physical Units_](http://mahdi-roozbahani.github.io/MIC-Packed-Particles/2014/10/22/Project-Progress-3.html).
+Based on this plan, we spent about one month struggling with the LBM simulation since neither of us had the experience in this simulation. We obtained the code from the website and modifed it to meet our requirement, but we had the problem on the unit conversion (lattice units to physical units). Details of the progresses for LBM simulation can be found in our posts [_Project Progress II_](http://mahdi-roozbahani.github.io/MIC-Packed-Particles/2014/10/01/Project-Progress.html) and [_Unit Conversion from Lattice Units to Physical Units_](http://mahdi-roozbahani.github.io/MIC-Packed-Particles/2014/10/22/Project-Progress-3.html).
 
 Then we tried FEM program [_COMSOL Multiphysics_](http://www.comsol.com), which was suggested by one classmate, to calculate permeability. We spent one week on this trial, but still couldn't acquire useful results. The problem was that when structure geometry was imported to COMSOL, the mesh creating errors always occurred. 
 
-At the end, with the help of Ahmet, we figured out a way to numerically calculate permeability (actually hydraulic conductivity instead for the final project) using [_Finite Volume Method_](http://en.wikipedia.org/wiki/Finite_volume_method). It is on the basis of incompressible single-phase flow move through porous media. 
+At the end, with the help of Ahmet, we figured out a way to numerically calculate hydraulic conductivity using [_Finite Volume Method_](http://en.wikipedia.org/wiki/Finite_volume_method). It is on the basis of incompressible single-phase flow move through porous media. 
 
 <p align="center">
 <img src="https://farm8.staticflickr.com/7564/15698148370_f36c9bd983_o.jpg" width="480" height="360">
@@ -47,5 +47,15 @@ At the end, with the help of Ahmet, we figured out a way to numerically calculat
 <p align="center">
  FVM for Real Structure
 </p>
-### 
+
+### Project Contents
+
+The workflow is shown as:
+
+<p align="center">
+<img src="https://farm8.staticflickr.com/7580/15812584290_5beb2db04b_o.png" width="480" height="360">
+</p>
+<p align="center">
+ Method of Approach
+</p>
 
