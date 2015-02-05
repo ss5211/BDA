@@ -19,6 +19,6 @@ paginate: 5
 
 gh:
   user: Mahdi-Roozbahani
-  repo:BDA
+  repo: BDA
   # Branch hosting Github pages
   branch: gh-pages
